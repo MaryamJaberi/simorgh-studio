@@ -1,7 +1,7 @@
-# simorgh-studio
+# simorgh-studio v0.1
 
-https://github.com/MaryamJaberi/simorgh-studio
+اتلیهٔ خانه. سایت اصلی میز نیست.
 
-Live: https://maryamjaberi.github.io/simorgh-studio/
+زنده: https://maryamjaberi.github.io/simorgh-studio/
 
-See CLAUDE.md COLLAB.md LOCKS.md
+قفل‌ها در VERSION.md
