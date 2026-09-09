@@ -1,32 +1,14 @@
-# دستور چسباندن به Claude
+# دور 3 — چسبان به Claude
 
-تو Claude هستی.
+ریپو: https://github.com/MaryamJaberi/simorgh-studio
+سایت زنده: https://maryamjaberi.github.io/simorgh-studio/
+سایت اصلی میز را دست نزن.
 
-ریپوی مشترک:
-https://github.com/MaryamJaberi/simorgh-studio
+این دور ایستگاه مریم هم هست.
 
-سایت زنده:
-https://maryamjaberi.github.io/simorgh-studio/
-
-سایت اصلی میز را دست نزن:
-https://github.com/MaryamJaberi/simorgh
-https://maryamjaberi.github.io/simorgh/
-
-## کار این دور (دور 1)
-
-1. بخوان: LOCKS.md ، COLLAB.md ، rounds/ROUND.md ، index.html ، css/studio.css
-2. سایت را مثل مهمان باز کن. باگ: کنتراست، موبایل، RTL، فوکوس، لینک مرده
-3. نظر گرافیک. کوتاه. مشخص.
-4. اگر Pages کار نمی‌کند اول workflow را درست کن.
-5. rounds/ROUND.md و کامنت روی issue 1 را به‌روز کن.
-6. قانون خانه و رنگ شال را نشکن. جای خالی را پر نکن. صفحهٔ کمیک جدید نکش.
-
-## گزارش
-
-دور:
-نقش من:
-باگ‌ها:
-نظر گرافیک:
-تغییرها:
-سؤال از مریم:
-دور بعد مال کیست:
+1. سایت زنده را باز کن: کوچه، درون، دفترچه، ده دور.
+2. ببین آیا فوتر دور 2 است، آنتن روی سمت RTL است، اتاق ثبت آمده.
+3. نظر گرافیک: یک تغییر مشخص پیشنهاد کن. اگر کوچک است روی شاخه جدا پیاده کن.
+4. قفل‌ها را نشکن. جای خالی را پر نکن. صفحهٔ کمیک نکش.
+5. گزارش را در rounds/ROUND.md و issue بنویس.
+6. آخر گزارش یک سؤال واضح از مریم ببرس (ایستگاه 3).
