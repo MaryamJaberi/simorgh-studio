@@ -41,7 +41,14 @@ a:focus-visible, button:focus-visible {
 }
 .brand { font-weight: 700; color: var(--ink); text-decoration: none; }
 nav { display: flex; gap: 1rem; flex-wrap: wrap; }
-nav a { color: var(--ink); text-decoration: none; }
+/* دور 5: هدف لمسی موبایل — بدون padding قبلی ارتفاع لینک‌ها حدود 27px بود (زیر 44px AAA) */
+nav a {
+  color: var(--ink);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.65rem 0.3rem;
+  margin: -0.65rem -0.3rem;
+}
 nav a[aria-current="page"] { border-bottom: 2px solid var(--shawl); }
 main { padding: 1.25rem; max-width: 1100px; margin: 0 auto; }
 .mute { color: var(--mute); }
