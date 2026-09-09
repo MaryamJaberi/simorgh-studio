@@ -136,13 +136,13 @@ main { padding: 1.25rem; max-width: 1100px; margin: 0 auto; }
   background: var(--card);
   border: 2px solid var(--line);
   padding: 1rem;
+  margin-top: 1rem;
 }
 .rooms, .board {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 0.7rem;
 }
-/* دور 7: ردیف آخرِ برد پنجاه‌تایی (که کامل نمی‌شود) با auto-fit کشیده می‌شود، نه خالی رها می‌شود */
 .board { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 .room, .page {
   border: 2px solid var(--line);
@@ -150,7 +150,6 @@ main { padding: 1.25rem; max-width: 1100px; margin: 0 auto; }
   min-height: 110px;
   padding: 0.8rem;
 }
-/* دور 7: تناسب نوشته/کادر — عنوان بلند و یادداشت خالی («—») دیگر ارتفاع ردیف را نامتوازن نمی‌کنند */
 .page {
   display: flex;
   flex-direction: column;
@@ -167,10 +166,27 @@ main { padding: 1.25rem; max-width: 1100px; margin: 0 auto; }
 }
 .page p { margin: 0.35rem 0 0 0; padding-top: 0.35rem; }
 .page.empty { background: #f7f4ec; }
-.room.wall { background: #ddd6c8; }
-.room.odorless { background: #f7f7f4; }
+.room.wall, .cell.wall { background: #ddd6c8; }
+.room.odorless, .cell.odorless { background: #f7f7f4; }
 .ok { outline: 3px solid var(--door); }
 .wait { outline: 3px solid var(--brick); }
+.plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.45rem;
+  max-width: 520px;
+}
+.cell {
+  min-height: 72px;
+  border: 2px solid var(--line);
+  background: var(--card);
+  font: inherit;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+}
+.cell.yard { background: #e6dcc8; }
+.cell.on { outline: 3px solid var(--door); outline-offset: -3px; }
 .rounds { display: grid; gap: 0.5rem; }
 .round {
   display: grid;

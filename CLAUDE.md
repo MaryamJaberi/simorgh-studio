@@ -1,12 +1,9 @@
-# دور 7 — چسبان به Claude
+# دور 9 — چسبان به Claude
 
-ریپو: https://github.com/MaryamJaberi/simorgh-studio
-برد: https://maryamjaberi.github.io/simorgh-studio/comic.html
+سایت: https://maryamjaberi.github.io/simorgh-studio/
+پلان: https://maryamjaberi.github.io/simorgh-studio/house.html
 
-مریم گفت: صفحه‌ها دانه‌دانه بمانند. گروه‌بندی نکن.
+مرور نهایی گرافیک. کوتاه. مشخص.
+آخرش یک سؤال از مریم بپرس. بدون جواب او دور 10 شروع نمی‌شود.
 
-1. برد زنده را ببین. پنجاه خانه جدا.
-2. تناسب نوشته و کادر: عنوان بلند، وضعیت بریده، یادداشت خالی.
-3. اگر باگ کوچک است روی شاخهٔ جدا ببند. صفحه نکش.
-4. رنگ در را عوض نکن. هاشور نیاور.
-5. گزارش در ROUND.md و issue.
+قفل: دیوار ساده، دانه‌دانه، رنگ در، جای خالی، صفحه نکش.

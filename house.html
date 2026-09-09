@@ -18,20 +18,25 @@
     </nav>
   </header>
   <main id="main">
-    <h1>حیاط و اتاق‌ها</h1>
-    <p class="mute">ثبت سه بار متر فرستاد و نوشت برابر سند قبلی.</p>
-    <div class="rooms">
-      <article class="room"><h3>حیاط</h3><p>فرش دوازده‌متری. در سبز ورقه.</p></article>
-      <article class="room"><h3>حوض</h3><p>بی‌ماهی. آب را حدس نزن.</p></article>
-      <article class="room"><h3>اتاق دایی</h3><p>بو دارد. اتاق می‌ماند.</p></article>
-      <article class="room"><h3>دوازده کیلومتر</h3><p>دست تکان نخورد.</p></article>
-      <article class="room"><h3>سیصد کیلومتر</h3><p>طلای عروسی. کتاب ناتمام.</p></article>
-      <article class="room odorless"><h3>چهار هزار</h3><p>هوا هیچ.</p></article>
-      <article class="room wall"><h3>دیوار</h3><p>زادهٔ بعد فقط این را می‌بیند.</p></article>
-      <article class="room"><h3>بام</h3><p>لحاف. آنتن. دعوا.</p></article>
-      <article class="room"><h3>اداره ثبت</h3><p>سه بار متر. همان سند قبلی.</p></article>
+    <h1>پلان</h1>
+    <p class="mute">از کوچه دو طبقه است. اتاق را بزن. آب حوض را حدس نزن.</p>
+    <div class="plan" role="group" aria-label="پلان خانه">
+      <button type="button" class="cell" data-id="bam">بام</button>
+      <button type="button" class="cell" data-id="sabt">ثبت</button>
+      <button type="button" class="cell wall" data-id="divar">دیوار</button>
+      <button type="button" class="cell" data-id="dayi">دایی</button>
+      <button type="button" class="cell yard" data-id="hayat">حیاط</button>
+      <button type="button" class="cell odorless" data-id="4000">۴۰۰۰</button>
+      <button type="button" class="cell" data-id="12">۱۲ کم</button>
+      <button type="button" class="cell" data-id="hoz">حوض</button>
+      <button type="button" class="cell" data-id="300">۳۰۰ کم</button>
     </div>
+    <aside class="card" id="panel" hidden>
+      <h2 id="panel-title"></h2>
+      <p id="panel-body"></p>
+    </aside>
   </main>
   <footer>قانون خانه استثنا ندارد.</footer>
+  <script src="js/house.js"></script>
 </body>
 </html>
