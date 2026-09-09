@@ -1,2 +1,7 @@
 # simorgh-studio
-اتاپلیه گرافیکی خانهٔ افسریه و دفترچهٔ کمیک — کارگاه مشترک Grok و Claude
+
+https://github.com/MaryamJaberi/simorgh-studio
+
+Live: https://maryamjaberi.github.io/simorgh-studio/
+
+See CLAUDE.md COLLAB.md LOCKS.md
